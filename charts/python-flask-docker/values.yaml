@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: hub.docker.com/r/pfray007/website/pfray/python-flask-docker
+  tag: 0.0.9
   pullPolicy: IfNotPresent
 service:
   name: python-flask-docker
